@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="shortcut icon" href="imagenes/icono.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="estilo3.css">
+    <style>
+        #fondo{
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            object-fit: cover;
+            opacity: 0.7;
+            z-index: -100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <div id="contenedor">
+                <div id="cabecera">
+                    <div id="logo">
+                        <a href="index.html"><img src="imagenes/logo.jpg" alt="logo" height="250px"></a>
+                    </div>
+                    <div id="menu">
+                        <nav>
+                            <ul>
+                                <li class="boton1"><a href="menu.html" target="_blank">Menú</a></li>
+                                <li class="boton2"><a href="videos.html" target="_blank">Videos</a></li>
+                                <li><i class="fa-solid fa-location-dot"></i>Encuentra tu Tienda</li>
+                                <li class="boton4">Iniciar Sesión</li>
+                                <li class="boton5">Registrate</li>
+                         </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <h1>Videos de Starbucks</h1>
+        <video id="fondo" src="Video/fondo.mp4" autoplay loop controls muted></video>
+        <div id="video1">
+            <article>
+                <h3>Cupido Esta En Starbucks</h3>
+                <div class="youtube">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jzpvhMraQCM?si=DjudVoBbnDKVdnKj" title="YouTube video player" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen controls autoplay loop></iframe>
+                </div>
+            </article>
+            <article>
+                <h3>Un Perfecto Café</h3>
+                <div class="vimeo">
+                    <iframe src="https://player.vimeo.com/video/68115528?h=02cb5715c2&title=0&byline=0&portrait=0" width="560" height="315" 
+                    frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen controls autoplay loop></iframe>
+                </div>
+            </article>
+        </div>
+        <aside>
+            <h3>Publicidad</h3>
+            <img id="publicidad2" src="imagenes/publicidad2.jpg" alt="publicidad2" width="750" height="500">
+            <img id="publicidad" src="imagenes/publicidad.jpg" alt="publicidad" width="750" height="500" >
+        </aside>
+        <hr>
+        <footer>
+            <div id="pie">
+                <div>
+                    <a href="https://www.facebook.com/starbucksperu/?locale=es_LA" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/starbucks/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <p style="font-style: italic;">(C)2024 Starbucks Coffee Company. All Rights Reserved</p>
+                <img src="imagenes/libro.jpg" alt="libro" height="100">
+            </div>
+        </footer>
+
+    </main>
+    
+</body>
+</html>

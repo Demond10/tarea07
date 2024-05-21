@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#cabecera{
+    display: flex;
+    border: 2px solid green;
+    padding-top: 15px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+#menu{
+    border: 0px solid greenyellow;
+    width: 80%;
+    display: flex;
+}
+#menu a{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    border: 3px solid lightgreen;
+    width: 150%;
+    padding: 70px;
+}
+#lista{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 99%;
+    padding: 2px;
+}
+.boton4{
+border: 2px solid greenyellow;
+border-radius: 50px;
+color: black;
+background-color: green;
+}
+.boton5{
+border: 2px solid greenyellow;
+border-radius: 50px;
+color: black;
+background-color: green;
+}
+li{
+    border: 1px solid red;
+    justify-content: space-between;
+    padding: 15px 20px;
+    font-weight: 1000;
+    font-style: normal;
+    cursor: pointer;
+}
+li:hover{
+    background-color: black;
+    color: white}
+#contenido{
+    display: flex;
+    justify-content: center;}
+.caja{
+    border: 2px solid purple;
+    padding: 25px;
+    margin-left: 100px;
+    margin-right: 250px;
+    background-color: violet;
+}
+#box{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    width: 500%;
+    height: 1160px;
+    margin-right: 500px;
+    background-color: bisque;
+}
+img{
+    border-radius: 150px;
+    display: flex;
+    flex-direction: row;
+}
+.imagena{
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align:left;}
+.imagenb{
+    margin: -240px 0px 50px 600px;
+}
+.imagenc{
+    margin: 70px 0px 0px 80px;
+}
+.imagend{
+    margin: -245px 0px 0px 650px;
+}
+.imagene{
+    margin: 100px 0px 0px 50px;
+}
+.imagenf{
+    margin: -255px 0px 0px 630px;
+}
+#bebidas{
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: 900;
+}
+#frapuccino{
+    color: brown;
+    margin-left: 60px;
+    font-weight:900;
+    font-size: larger;
+}
+#caliente{
+    color: firebrick;
+    margin-left: 40px;
+    font-weight:900;
+    font-size: larger;}
+#espresso{
+    color: teal;
+    margin-left: 40px;
+    font-weight:900;
+    font-size: larger;
+}
+#cafe{
+    color: peru;
+    margin-left: 10px;
+    font-weight:900;
+    font-size: larger; 
+}
+#frio{
+    color: palevioletred;
+    margin-left: 40px;
+    font-weight:900;
+    font-size: larger;
+}
+#frias{
+    color: red;
+    margin-left: 40px;
+    font-weight:900;
+    font-size: larger;
+}
+#pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: whitesmoke;
+}
